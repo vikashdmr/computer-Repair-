@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+}
+.main-container{
+    width:100%;
+}
+.home{
+    background-image:url(/emages/computer\ shope-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+hr{
+    margin: 0;
+}
+.hed-call{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.399);
+
+}
+.hed-text-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.399);
+
+
+}
+.heading{
+padding: 0;
+margin: 0;
+}
+.text{
+    margin: 0;
+
+}button{
+    background:linear-gradient(to left bottom, rgb(239, 17, 154), rgb(99, 45, 235));
+    padding: 10px 40px;
+    margin-top: 80px;
+    font-size: medium;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    color: aliceblue;
+}
+.boxes{
+    background-color: rgba(208, 232, 234, 0.486);
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 12px;
+    padding: 6%;
+}
+.box img{
+    width: 100px;
+    height: 80px;
+    margin: 0;
+}
+.box{
+    margin: 0;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}
+.box p{
+    text-align: center;
+    padding: 15px;
+}
+#text1{
+    margin: 0;
+    font-size: 16px;
+    padding-top: 0;
+}
+.box h2{
+    font-size: 16px;
+    padding: 20px;
+}
+.main-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+}
+#heading{
+    width: 400px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#img-text{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    width: 100%;
+    text-align: center;
+}
+#img{
+    width: 100%;
+    margin: 20px;
+
+}
+
+#tex .pra{
+    width: 50%;
+    margin: 20px;
+}
+#text p{
+    width: 80%;
+    text-align: left;
+}
+.btn{
+    margin-top: 20px;
+}
+#conteners{
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(208, 232, 234, 0.486);
+}
+.cont{
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.cont img{
+    width: 50px;
+    color: aliceblue;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+span{
+    color: green;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width:600px){
+    
+}
